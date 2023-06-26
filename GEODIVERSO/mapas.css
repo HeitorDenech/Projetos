@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+}
+
+.navbar-1{
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    left: 0%;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: white;
+    height: 10vh;
+}
+    
+#geodiverso {
+    color: purple;
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 10em;
+}
+
+#geodiverso:hover {
+    opacity: 0.7;
+}
+
+#home {
+    color: gray;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#home:hover {
+    color: purple;
+    transform: translate(2px) scale(1.2);
+}
+
+#sobre {
+    color: gray;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#sobre:hover {
+    color: purple;
+    transform: translate(2px) scale(1.2);
+}
+
+#contato{
+    color: gray;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#contato:hover{
+    color: purple;
+    transform: translate(2px) scale(1.2);
+}
+
+main{
+    height: 70vh;
+}
+
+
+#home2{
+    color: rgb(228, 202, 202);
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#home2:hover{
+    opacity: 0.7;
+    transform: translate(2px) scale(1.2);
+}
+
+#curiosidades{
+    color: rgb(228, 202, 202);
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#curiosidades:hover{
+    opacity: 0.7;
+    transform: translate(2px) scale(1.2);
+}
+
+#mapas{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#mapas:hover{
+    color: white;
+    transform: translate(2px) scale(1.2);
+}
+
+#jogos{
+    color: rgb(228, 202, 202);
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#jogos:hover{
+    opacity: 0.7;
+    transform: translate(2px) scale(1.2);
+}
+
+#conteudos{
+    color: rgb(228, 202, 202);
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#conteudos:hover{
+    opacity: 0.7;
+    transform: translate(2px) scale(1.2);
+}
+
+
+#container2{
+    list-style: none;
+    display: flex;
+}
+
+
+#container2 li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: gray;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+#container2 {
+    background-color: rgb(191, 37, 191);
+    position: absolute;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    left: 0%;
+}
+
+footer {
+    background-color: purple;  
+    height: 20vh;
+    width: 100%;
+}

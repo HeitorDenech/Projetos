@@ -1,0 +1,461 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+*{
+  box-sizing: border-box;
+}
+
+button {
+  color: white;
+  background: black;
+  transition: transform 1s;
+  transform: translateX(0) scale(0.5);
+  }
+  
+  button:hover,
+  button:focus {
+  background: black;
+  transform: translateX(10px) scale(0.7);
+  
+  }
+
+#mapa1{
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+}
+
+main{
+  height: 80vh;
+}
+
+footer{
+  height: 20%;
+  background-color: purple;
+  width: 100%;
+}
+
+#youtube{
+  cursor: pointer;
+  text-decoration: underline;
+  }
+
+  #personagem{
+    color: gray;
+  }
+  
+
+#home{
+  color: gray;
+}
+
+#sobre{
+  color: rgb(128, 128, 128);
+}
+
+#mapa{
+  color: purple;
+}
+
+#contato{
+  color: gray;
+}
+
+#ensino-geografia{
+  color: purple;
+}
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.5;
+    
+  }
+  
+
+
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    background: white;
+    height: 12vh;
+    width: 100%;
+  }
+  
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+  }
+
+ 
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+
+#container2 {
+  background-color: rgb(191, 37, 191);
+  position: absolute;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    left: 0%;
+}
+
+h1{
+  color: white;
+}
+
+#twitter{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#instagram{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#contato-footer{
+  letter-spacing: 3px;
+    margin-left: 32px;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#cloud{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#apps{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.container3 {
+  background-color: white;
+  position: absolute;
+  height: 33vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 25vh;
+  left: 15vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 1rem;
+  transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+    cursor: pointer;
+}
+
+.container3:hover,
+.container3:focus {
+    background: white;
+    transform: translateX(5px) scale(0.9);
+}
+
+#mapadosudeste{
+  align-items: center;
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+#mapadosudeste:hover{
+  opacity: 3.0;
+}
+
+#caracteristicasdosudeste{
+  position: absolute;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  top: 0.5vh;
+  left: 13;
+}
+
+#mapadosudeste{
+  height: 29vh;
+  width: 30vw;
+}
+
+.container4 {
+  background-color: white;
+  position: absolute;
+  height: 33vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 25vh;
+  left: 70vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 1rem;
+  transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+    cursor: pointer;
+}
+
+.container4:hover,
+.container4:focus {
+    background: white;
+    transform: translateX(5px) scale(0.9);
+}
+
+#mapadosudeste{
+  align-items: center;
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+#mapadosudeste:hover{
+  opacity: 3.0;
+}
+
+#caracteristicasdosudeste{
+  position: absolute;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  top: 0.5vh;
+  left: 13;
+}
+
+#mapadonordeste{
+  height: 29vh;
+  width: 30vw;
+}
+
+.container5 {
+  background-color: white;
+  position: absolute;
+  height: 33vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 25vh;
+  left: 125vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 1rem;
+  transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+    cursor: pointer;
+}
+
+.container5:hover,
+.container5:focus {
+    background: white;
+    transform: translateX(5px) scale(0.9);
+}
+
+#mapadosudeste{
+  align-items: center;
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+#mapadosudeste:hover{
+  opacity: 3.0;
+}
+
+#caracteristicasdosudeste{
+  position: absolute;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  top: 0.5vh;
+  left: 13;
+}
+
+#mapadonorte{
+  height: 29vh;
+  width: 30vw;
+}
+
+.container6 {
+  background-color: white;
+  position: absolute;
+  height: 33vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 55vh;
+  left: 15vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 1rem;
+  transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+    cursor: pointer;
+}
+
+.container6:hover,
+.container6:focus {
+    background: white;
+    transform: translateX(5px) scale(0.9);
+}
+
+#mapadosudeste{
+  align-items: center;
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+#mapadosudeste:hover{
+  opacity: 3.0;
+}
+
+#caracteristicasdosudeste{
+  position: absolute;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  top: 0.5vh;
+  left: 13;
+}
+
+#mapadosul{
+  height: 29vh;
+  width: 30vw;
+}
+
+.container7 {
+  background-color: white;
+  position: absolute;
+  height: 33vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 55vh;
+  left: 70vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 1rem;
+  transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+    cursor: pointer;
+}
+
+.container7:hover,
+.container7:focus {
+    background: white;
+    transform: translateX(5px) scale(0.9);
+}
+
+#mapadosudeste{
+  align-items: center;
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+#mapadosudeste:hover{
+  opacity: 3.0;
+}
+
+#caracteristicasdosudeste{
+  position: absolute;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  top: 0.5vh;
+  left: 13;
+}
+
+#mapadocentrooeste{
+  height: 29vh;
+  width: 30vw;
+}
+
+.container8 {
+  background-color: white;
+  position: absolute;
+  height: 33vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 55vh;
+  left: 125vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 1rem;
+  transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+    cursor: pointer;
+}
+
+.container8:hover,
+.container8:focus {
+    background: white;
+    transform: translateX(5px) scale(0.9);
+}
+
+#mapadosudeste{
+  align-items: center;
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+#mapadosudeste:hover{
+  opacity: 3.0;
+}
+
+#caracteristicasdosudeste{
+  position: absolute;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  top: 0.5vh;
+  left: 13;
+}
+
+#mapadobrasil{
+  height: 29vh;
+  width: 30vw;
+}

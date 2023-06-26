@@ -1,0 +1,201 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+*{
+  box-sizing: border-box;
+}
+
+button {
+  color: white;
+  background: black;
+  transition: transform 1s;
+  transform: translateX(0) scale(0.5);
+  }
+  
+  button:hover,
+  button:focus {
+  background: black;
+  transform: translateX(10px) scale(0.7);
+  
+  }
+
+#mapa1{
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+}
+
+#youtube{
+  cursor: pointer;
+  text-decoration: underline;
+  }
+
+main{
+  height: 80vh;
+}
+
+footer{
+  height: 20%;
+  background-color: purple;
+  width: 100%;
+}
+
+
+#home{
+  color: gray;
+}
+
+#sobre{
+  color: rgb(128, 128, 128);
+}
+
+#personagem{
+  color: gray;
+}
+
+
+#mapa{
+  color: gray;
+}
+
+#contato{
+  color: purple;
+}
+
+#ensino-geografia{
+  color: purple;
+}
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.5;
+    
+  }
+  
+
+
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    background: white;
+    height: 12vh;
+    width: 100%;
+  }
+  
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+  }
+
+ 
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+
+#container2 {
+  background-color: rgb(191, 37, 191);
+  position: absolute;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    left: 0%;
+}
+
+h1{
+  color: white;
+}
+
+#twitter{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#instagram{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#contato-footer{
+  letter-spacing: 3px;
+    margin-left: 32px;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#cloud{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#apps{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+img{
+  width: 35vw;
+  height: 45vh;
+  border-radius: 10px;
+}
+
+.container{
+  position: absolute;
+  border-radius: 10px;
+  width: 35vw;
+  height: 45vh;
+  top: 33vh;
+  left: 50vw;
+  box-shadow: 1px 1px 2px 2px purple;
+}
+
+.box-img{
+  display: flex;
+  align-items: flex-start;
+}
+
+.container3{
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 40vh;
+  left: 30vh;
+  height: 30vh;
+  width: 25vw;
+  box-shadow: 1px 1px 2px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  
+}

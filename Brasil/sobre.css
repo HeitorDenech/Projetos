@@ -1,0 +1,375 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+box-sizing: border-box;
+}
+
+button {
+color: white;
+background: black;
+transition: transform 1s;
+transform: translateX(0) scale(0.5);
+}
+
+button:hover,
+button:focus {
+background: black;
+transform: translateX(10px) scale(0.7);
+
+}
+
+#mapa1{
+position: absolute;
+top: 20vh;
+left: 30vw;
+}
+
+main{
+height: 230vh;
+}
+
+footer{
+height: 20%;
+background-color: purple;
+width: 100%;
+}
+
+
+#home{
+color: gray;
+}
+
+#personagem{
+  color: gray;
+}
+
+
+#sobre{
+color: purple;
+}
+
+#mapa{
+color: gray;
+}
+
+#contato{
+color: gray;
+}
+
+#ensino-geografia{
+color: purple;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+  
+}
+
+
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  background: white;
+  height: 12vh;
+  width: 100%;
+}
+
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+#container2 {
+background-color: rgb(191, 37, 191);
+position: absolute;
+height: 8vh;
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  left: 0%;
+}
+
+h1{
+color: white;
+}
+
+#twitter{
+cursor: pointer;
+text-decoration: underline;
+}
+
+#instagram{
+cursor: pointer;
+text-decoration: underline;
+}
+
+#contato-footer{
+letter-spacing: 3px;
+  margin-left: 32px;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#cloud{
+cursor: pointer;
+text-decoration: underline;
+}
+
+#apps{
+cursor: pointer;
+text-decoration: underline;
+}
+
+#youtube{
+  cursor: pointer;
+  text-decoration: underline;
+  }
+
+#container3 {
+  background-color: white;
+  position: absolute;
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 25vh;
+  left: 30vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 2rem;
+}
+
+
+#saopaulo{
+  text-decoration: underline;
+  color: blue;
+}
+
+#mapadosudeste{
+  height: 50vh;
+  width: 35vw;
+}
+
+#container4 {
+  background-color: white;
+  position: absolute;
+  height: 50vh;
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 25vh;
+  left: 95vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  transition: transform 1s;
+  transform: translateX(0) scale(0.8);
+  cursor: pointer; 
+}
+
+#container6 {
+  background-color: white;
+  position: absolute;
+  height: 50vh;
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 85vh;
+  left: 95vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  transition: transform 1s;
+  transform: translateX(0) scale(0.8);
+  cursor: pointer; 
+}
+
+#container6:hover,
+#conainer6:focus{
+  background: white;
+    transform: translateX(5px) scale(1.0);
+}
+
+#container5 {
+  background-color: white;
+  position: absolute;
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 85vh;
+  left: 30vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 2rem;
+}
+
+#saopaulo{
+  text-decoration: underline;
+  color: blue;
+}
+
+#mapadosudeste{
+  height: 50vh;
+  width: 35vw;
+}
+
+
+
+#container4:hover,
+#conainer4:focus{
+  background: white;
+    transform: translateX(5px) scale(1.0);
+}
+
+#pib{
+  text-decoration: underline;
+  color: blue;
+}
+
+#idh{
+  text-decoration: underline;
+  color: blue;
+}
+
+#pibpercapita{
+  text-decoration: underline;
+  color: blue;
+}
+
+#transfobia-no-sudeste{
+  color: purple;
+  position: absolute;
+  top: 85vh;
+  left: 75vh;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+}
+
+
+#container7{
+  background-color: white;
+  position: absolute;
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 103vh;
+  left: 30vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 2rem;
+}
+
+#movimento-trans{
+    background-color: white;
+    position: absolute;
+    height: 50vh;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 103vh;
+    left: 95vh;
+    box-shadow: 1px 1px 1px 2px purple;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+    cursor: pointer;  
+}
+
+#movimento-trans:hover,
+#movimento-trans:focus{
+  background: white;
+    transform: translateX(5px) scale(1.0);
+}
+
+#container9{
+  background-color: white;
+  position: absolute;
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 185vh;
+  left: 30vh;
+  box-shadow: 1px 1px 1px 2px purple;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1rem 2rem;
+}
+
+#fundiaria{
+    background-color: white;
+    position: absolute;
+    height: 50vh;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 185vh;
+    left: 95vh;
+    box-shadow: 1px 1px 1px 2px purple;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+    cursor: pointer;  
+}
+
+#fundiaria:hover,
+#fundiaria:focus{
+  background: white;
+    transform: translateX(5px) scale(1.0);
+}
+
+#fundiaria-sudeste{
+  color: purple;
+  position: absolute;
+  top: 165vh;
+  left: 65vh;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+}

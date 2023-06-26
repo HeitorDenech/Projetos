@@ -1,0 +1,18 @@
+#container1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 2%;
+    height: 80%;
+    width: 40%;
+}
+
+h2{
+    position: absolute;
+    top: 15%;
+    left: 37.5%;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    height: 5%;
+    text-decoration: none;
+}
