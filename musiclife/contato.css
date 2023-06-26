@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #750000 #3C3CEB;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    
+    background-color: gray;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    
+    background-color: black;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 255, 0);
+  }
+  
+
+header {
+    height: 10%;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+#MUSICLIFE {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0); 
+}
+
+#MUSICLIFE:hover{
+    color: rgb(0, 255, 0);
+    transform: translate(2px) scale(1.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    background: black;
+    height: 12vh;
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#barra-pesquisa {
+    height: 50%;
+    width: 60%;
+}
+
+.btn {
+    height: 50%;
+    width: 3%;
+    border-radius: 20px;
+    border: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+#abrir-o-app {
+    height: 50%;
+    width: 15%;
+    border-radius: 20px;
+    border: white;
+    cursor: pointer;
+}
+
+#abrir-o-app:hover {
+    opacity: 0.7;
+}
+
+#settings {
+    height: 50%;
+    width: 3%;
+    border-radius: 20px;
+    border: white;
+    cursor: pointer;
+}
+
+#settings:hover {
+    opacity: 0.7;
+}
+
+main {
+    background: linear-gradient(rgb(19, 18, 18), rgb(103, 98, 98));
+    height: 70vh;
+}
+
+#container1 {
+    background-color: rgb(10, 10, 10);
+    height: 8vh;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    left: 0%;
+}
+
+#home {
+    color: gray;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#home:hover{
+    color: rgb(0, 255, 0);  
+    transform: translate(2px) scale(1.2);
+}
+
+#contato {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#contato:hover{
+    color: rgb(0, 255, 0);  
+    transform: translate(2px) scale(1.2);
+}
+
+#musicas {
+    color: gray;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#musicas:hover{
+    color: rgb(0, 255, 0);
+    transform: translate(2px) scale(1.2);
+}
+
+#playlists {
+    color: gray;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#playlists:hover{
+    color: rgb(0, 255, 0);
+    transform: translate(2px) scale(1.2);
+}
+
+#login {
+    color: gray;
+    text-decoration: none;
+    transition: transform 0.5s;
+    transform: translate(0) scale(1.0);
+}
+
+#login:hover{
+    color: rgb(0, 255, 0);
+    transform: translate(2px) scale(1.2);
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+#container2 {
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 2%;
+    height: 250px;
+    width: 450px;
+    background-color: white;
+}
+
+#contato-main {
+    letter-spacing: 0.5vh;
+    padding: 10px;
+    justify-content: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    display: grid;
+    color: black;
+}
+
+#twitter-main {
+    text-decoration: underline;
+}
+
+#twitter-main:hover{
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+#instagram-main {
+    text-decoration: underline;
+}
+
+#instagram-main:hover{
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+#youtube-main {
+    text-decoration: underline;
+}
+
+#youtube-main:hover{
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+#music1{
+    text-decoration: underline;
+}
+
+#music1:hover{
+    color: rgb(0, 255, 0);    
+    cursor: pointer;
+}
+
+#music2{
+    text-decoration: underline;
+}
+
+#music2:hover{
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+#music3{
+    text-decoration: underline;
+}
+
+#music3:hover{
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    height: 15%;
+}
+
+
+#contato-footer {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+    color: white;
+}
+
+
+#cloud{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #cloud:hover{              
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+  }
+  
+  #apps{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #apps:hover{
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+  }
+
+  #twitter{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #twitter:hover{
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+  }
+  
+  #instagram{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #instagram:hover{
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+  }
+
+  #youtube{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #youtube:hover{
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+  }
+  
+ 

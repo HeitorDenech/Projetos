@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 2%;
+    height: 80%;
+    width: 40%;
+}
+
+#logo-google{
+    position: absolute;
+    top: 5%;
+    left: 39.5%;
+    height: 7%;
+    width: 20%;
+}
+
+h2{
+    position: absolute;
+    top: 15%;
+    left: 33.5%;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    height: 5%;
+    text-decoration: none;
+}
+
+#input1{
+    padding: 1%;
+    position: absolute;
+    height: 10%;
+    width: 72%;
+    top: 27%;
+    left: 13%;
+    border:  1px solid gray;
+    border-radius: 5px;
+}
+
+#password1{
+    padding: 1%;
+    position: absolute;
+    height: 10%;
+    width: 72%;
+    top: 42%;
+    left: 13%;
+    border:  1px solid gray;
+    border-radius: 5px;
+}
+
+#date{
+    padding: 1%;
+    position: absolute;
+    height: 10%;
+    width: 72%;
+    top: 57%;
+    left: 13%;
+    border:  1px solid gray;
+    border-radius: 5px;
+}
+
+#esqueceu-a-senha{
+    color: rgb(0, 68, 255);
+    position: absolute;
+    top: 41%;
+    left: 13%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#esqueceu-a-senha:hover{
+    opacity: 0.7;
+}
+
+#Modo-visitante{
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    color: gray;
+}
+
+#saiba-mais{
+    color: rgb(0, 68, 255);
+    text-decoration: none;
+}
+
+#saiba-mais:hover{
+    opacity: 0.7;
+}
+
+#criar-conta{
+    color: rgb(0, 68, 255);
+    text-decoration: none;
+    position: absolute;
+    top: 75%;
+    left: 13%;
+}
+
+#criar-conta:hover{
+    opacity: 0.7;
+}
+
+#voltar{
+    position: absolute;
+    top: 75%;
+    left: 13%;
+    height: 8%;
+    width: 15%;
+    border-radius: 5px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    cursor: pointer;
+    border: blue;
+}
+
+#voltar:hover{
+    opacity: 0.8;
+}
+
+#avancar1{
+    position: absolute;
+    top: 75%;
+    left: 72%;
+    height: 8%;
+    width: 15%;
+    border-radius: 5px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    cursor: pointer;
+    border: blue;
+}
+
+#avancar1:hover{
+    opacity: 0.8;
+}
